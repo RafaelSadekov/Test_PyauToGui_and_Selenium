@@ -33,7 +33,7 @@ WebDriverWait(driver, 60).until(
 )
 
 # Введите номер телефона
-phone_number = '+79266565746'  # Ваш номер телефона
+phone_number = ''  # Ваш номер телефона
 phone_input = driver.find_element(By.ID, 'sign-in-phone-number')
 phone_input.clear()  # Очистите поле перед вводом номера
 phone_input.send_keys(phone_number)
